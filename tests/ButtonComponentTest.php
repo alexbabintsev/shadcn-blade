@@ -18,7 +18,7 @@ class ButtonComponentTest extends TestCase
             'type' => 'button',
             'href' => null,
             'target' => null,
-            'slot' => 'Click me'
+            'slot' => 'Click me',
         ]);
 
         $html = $view->render();
@@ -43,7 +43,7 @@ class ButtonComponentTest extends TestCase
                 'type' => 'button',
                 'href' => null,
                 'target' => null,
-                'slot' => 'Button'
+                'slot' => 'Button',
             ]);
 
             $html = $view->render();
@@ -63,7 +63,7 @@ class ButtonComponentTest extends TestCase
             'type' => 'button',
             'href' => '/dashboard',
             'target' => null,
-            'slot' => 'Dashboard'
+            'slot' => 'Dashboard',
         ]);
 
         $html = $view->render();
@@ -85,7 +85,7 @@ class ButtonComponentTest extends TestCase
             'type' => 'button',
             'href' => null,
             'target' => null,
-            'slot' => 'Loading'
+            'slot' => 'Loading',
         ]);
 
         $html = $view->render();
@@ -106,7 +106,7 @@ class ButtonComponentTest extends TestCase
             'type' => 'button',
             'href' => null,
             'target' => null,
-            'slot' => 'Disabled'
+            'slot' => 'Disabled',
         ]);
 
         $html = $view->render();

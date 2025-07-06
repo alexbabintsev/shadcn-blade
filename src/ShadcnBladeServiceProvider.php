@@ -3,9 +3,9 @@
 namespace AlexBabintsev\ShadcnBlade;
 
 use AlexBabintsev\ShadcnBlade\Commands\ShadcnBladeCommand;
+use Illuminate\Support\Facades\Blade;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Illuminate\Support\Facades\Blade;
 
 class ShadcnBladeServiceProvider extends PackageServiceProvider
 {
