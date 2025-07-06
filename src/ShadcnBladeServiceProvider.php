@@ -2,9 +2,9 @@
 
 namespace AlexBabintsev\ShadcnBlade;
 
+use AlexBabintsev\ShadcnBlade\Commands\ShadcnBladeCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use AlexBabintsev\ShadcnBlade\Commands\ShadcnBladeCommand;
 
 class ShadcnBladeServiceProvider extends PackageServiceProvider
 {

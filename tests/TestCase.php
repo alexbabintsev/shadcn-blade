@@ -2,9 +2,9 @@
 
 namespace AlexBabintsev\ShadcnBlade\Tests;
 
+use AlexBabintsev\ShadcnBlade\ShadcnBladeServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use AlexBabintsev\ShadcnBlade\ShadcnBladeServiceProvider;
 
 class TestCase extends Orchestra
 {
