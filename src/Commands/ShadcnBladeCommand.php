@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace AlexBabintsev\ShadcnBlade\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class ShadcnBladeCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'shadcn-blade';
 
     public $description = 'My command';
 
