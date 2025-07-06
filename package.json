@@ -1,0 +1,30 @@
+{
+  "name": "shadcn-blade",
+  "version": "1.0.0",
+  "description": "A Laravel package that brings shadcn/ui components to Blade templates",
+  "keywords": [
+    "laravel",
+    "shadcn",
+    "ui",
+    "components",
+    "tailwind",
+    "alpine",
+    "blade"
+  ],
+  "author": "Alex Babintsev",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.4.0",
+    "alpinejs": "^3.13.0",
+    "@tailwindcss/forms": "^0.5.0",
+    "@tailwindcss/typography": "^0.5.0"
+  },
+  "peerDependencies": {
+    "tailwindcss": "^3.0.0",
+    "alpinejs": "^3.0.0"
+  },
+  "scripts": {
+    "build": "tailwindcss -i ./resources/css/shadcn-blade.css -o ./resources/css/shadcn-blade.min.css --minify",
+    "dev": "tailwindcss -i ./resources/css/shadcn-blade.css -o ./resources/css/shadcn-blade.min.css --watch"
+  }
+}
